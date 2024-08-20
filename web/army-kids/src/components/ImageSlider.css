@@ -1,0 +1,57 @@
+
+.slider-styles {
+    height: 100%;
+    position: relative;
+}
+
+
+.slide-styles{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url(../images/zakaznici/zakaznici_1.jpg) */
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 10px;
+    font-size: 30px;
+    border: none;
+    background: none;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 10px;
+    font-size: 30px;
+    border: none;
+    background: none;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.right-arrow, .left-arrow:hover {
+    background: none;
+}
+
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dot-style {
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: 20px;
+}

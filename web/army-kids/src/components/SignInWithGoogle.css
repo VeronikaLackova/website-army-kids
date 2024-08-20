@@ -1,0 +1,20 @@
+.google-sign-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+.continue-p {
+    font-size: 15px;
+    color: #b2b2b2;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.google-sign-in img {
+    max-width: 250px;
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+.all-hoodies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.one-hoodie {
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 50px;
+}
+
+.one-hoodie h2{
+    text-align: center;
+}
+
+.one-hoodie img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.one-hoodie img:hover {
+    transform: scale(1.1);
+}
+
+.one-hoodie a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.one-hoodie p {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.add-button {
+    display: block;
+    width: 40%;
+    margin-left: 100px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 50px;
+}
+
+.add-button:hover {
+    background-color: black;
+    color: white;
+}
+

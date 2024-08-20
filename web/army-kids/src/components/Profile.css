@@ -1,0 +1,50 @@
+.profile-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-photo img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.hr-profile {
+    color: white !important;
+    width: 50%;
+}
+
+.profile-user p {
+    font-size: 20px;
+}
+
+
+.button-sign-out{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.button-sign-out button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: hsl(352, 80%, 50%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.button-sign-out button:hover {
+    background-color: hsl(352, 80%, 38%);
+}

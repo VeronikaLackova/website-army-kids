@@ -1,0 +1,47 @@
+/* nad 1110 px*/
+.kosik {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kosik-produkty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.pokladna p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pokladna button {
+    width: 190px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/*pod 1110 px*/
+/* @media (max-width: 1110px) {
+    .kosik-produkty {
+        width: 100%;
+    }
+} */
+
+/*pod 800 px*/
+/* @media (max-width: 800px) {
+    .kosik-produkty {
+        width: 100%;
+    }
+} */
+

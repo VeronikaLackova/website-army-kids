@@ -1,0 +1,101 @@
+/* nad 800px */
+
+.registration-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.registration-container h1 {
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 50px;
+    border: 2px solid hsl(0, 2%, 47%);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.registration-name, 
+.registration-surname, 
+.registration-email, 
+.registration-password {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+} 
+
+form label {
+    font-weight: bold;
+    padding: 5px;
+}
+
+form input {
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+ .registration-name {
+    margin-left: 42px;
+}
+
+.registration-surname {
+    margin-left: 23px;
+}
+
+.registration-password {
+    margin-left: 43px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.button button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: hsl(352, 80%, 50%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+button:hover {
+    background-color: hsl(352, 80%, 38%);
+}
+
+.already-registered {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.already-registered a {
+    color: hsl(352, 80%, 50%);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* pod 690px */
+@media (max-width:690px) {
+    .registration-container{
+        margin: 0 auto;
+    }
+}

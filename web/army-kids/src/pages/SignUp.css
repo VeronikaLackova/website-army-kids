@@ -1,0 +1,96 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 100vh; */
+}
+
+.form-container h1 {
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 50px;
+    border: 2px solid hsl(0, 2%, 47%);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-name, .form-password {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+}
+
+form label {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.form-name-label, .form-password-label {
+    display: flex;
+    flex-direction: row;
+}
+
+form input {
+    padding: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* .form-name-input {
+    margin-right: 130px;
+} */
+
+.form-password {
+    margin-left: 55px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.button button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: hsl(352, 80%, 50%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.button button:hover {
+    background-color: hsl(352, 80%, 38%);
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.forgot-password a {
+    color: hsl(352, 80%, 50%);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* pod 600px */
+@media (max-width:600px) {
+    .form-container {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,123 @@
+/* nad 900px */
+.nav-products {
+    margin-top: 30px;
+    background-color: white;
+}
+
+.navigation-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu-icon button {
+    display: none;
+}
+
+.nav-list-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.nav-list-products ul {
+    margin-right: 50px;
+}
+
+.nav-list-products li {
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.nav-list-products a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: all 0.3s linear; /* Add transition for smooth effect */
+}
+
+.nav-list-products a:hover {
+    color: white; /* Change text color to white on hover */
+    border: 2px solid #f03131; /* Softer red color */
+    padding: 8px 18px;
+    background-color: #f03131; /* Softer red background */
+}
+
+.activeLink {
+    color: white;
+    border: 2px solid #f03131; /* Softer red color */
+    padding: 8px 18px;
+    background-color: #f03131; /* Softer red background */
+    transition: all 0.3s linear; /* Add transition for smooth effect */
+}
+
+
+.nonactiveLink {
+    color: black;
+}
+
+
+/* 900px a menej */
+@media (max-width: 900px){
+
+    .navigation-products {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .menu-icon {
+        width: 100%;
+    }
+
+    .menu-icon button {
+        display: block;
+        background-color: transparent;
+        border: none;
+        /* margin-right: 25px; */
+    }
+
+    .menu-icon button:hover {
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+    .hamburger-icon {
+        font-size: 25px;
+        margin-right: 20px;
+        color: black;
+    }
+
+    .nav-list-products ul {
+        margin-right: 10px;
+    }
+
+    .nav-list-products li {
+        margin: 0;
+        width: 100%;
+        padding: 10px 5px;
+    }
+
+    /* classy pre pouzitie v reacte */
+    .hide {
+        height: 0px;
+        overflow: hidden;
+        transition: all 0.1s linear;
+    }
+
+    .show {
+        height: 200px;
+    } 
+}
+
+
+
