@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-web/army-kids/src/components/firebase.js
+/src/components/firebase.js
 
 # dependencies
 /node_modules
