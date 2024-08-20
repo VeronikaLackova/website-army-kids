@@ -40,7 +40,8 @@
     cursor: pointer;
 }
 
-.right-arrow, .left-arrow:hover {
+.right-arrow:hover,
+.left-arrow:hover {
     background: none;
 }
 
